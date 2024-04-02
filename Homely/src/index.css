@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+* {
+  /* border: 1px solid red; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primarybackground: #ffe9e0;
+  --primaryitemcolor: rgb(176, 106, 21);
+  --textcolor: rgba(0, 0, 0, 0.81);
+  --primarytextcolor: #000000;
+  --secondarytextcolor: #959190;
+  --tertiarytextcolor: #443d3d;
+  --bordercolor: rgb(176, 106, 21);
+  --secondarybordercolor: #e1e1e1;
+  --tertiarybordercolor: #d9d9d9;
+  --heartcolor: rgb(42, 61, 189);
+  --light: #ffffff;
+  --dark: #000000;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif !important;
+  color: var(--primarytextcolor);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  background-color: #f1f1f1;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primaryitemcolor) !important;
+  border-radius: 10px !important;
+}
+
+::selection {
+  background-color: var(--primaryitemcolor);
+  color: var(--light);
+}
